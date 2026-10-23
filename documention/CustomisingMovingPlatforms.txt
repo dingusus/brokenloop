@@ -1,0 +1,12 @@
+Customising Moving Platforms
+
+Once you've placed the platform in the world, select it and look in the details panel for MoveDuration and MovePoints variables.
+
+MoveDuration controls the amount of time the platform will take to move between the first and last point in MovePoints.
+
+MovePoints is an array of two or more relative locations you can use to control where you want the platform to go when moving.
+- Each array element in MovePoints is visually represented by light blue diamond shapes when you have the moving platform selected; you can select these light blue diamonds to move each point by hand in the level.
+- You can add more than two array elements to MovePoints if you want it to move to multiple places.
+- Simulating the level is handy if you want to make sure the platform is moving where you want it to.
+
+The two axes we want our platform to move on are X (sideways) and Z (up). Y does not need to change,
